@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silent Retreats</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <img src="assets/logo.svg" alt="logo" class="logo">
+        <div class="container-fluid" id="nav-container">
+            <a class="navbar-brand" id="brand" href="#">Silent Retreats</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#weekly">Weekly Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summer">Summer Greetings</a>
+                    </li>
+                    <li class="nav-item"> <!--d-none on small devices-->
+                        <a class="nav-link d-none d-md-block" href="#daily">Daily Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lastminute">Last Minute Escapes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron with company Payoff -->
+    <main class="container-fluid text-center gx-5">
+        <img src="assets/logo.svg" alt="logo" class="logo">
+        <h1>Silent Retreats
+            <br><span class="d-md-inline d-sm-inline" style="font-size: 0.8em;">Luxury Travel Agency</span>
+        </h1>
+        <p>Crafting Quiet Moments in a Busy World</p>
+        <a href="#contact" class="btn">Let's talk</a>
+    </main>
+
+    <!-- Weekly deals section -->
+    <section class="container-fluid  text-center" id="weekly">
+        <h2>Weekly Deals</h2>
+        <button class="btn-collapse">Collapse Section</button>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/cappadocia.jpg" class="card-img-top" alt="cappadocia">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappadocia Luxury Retreat</h5>
+                        <p class="card-text">Luxury retreats amidst Cappadocia's surreal landscapes.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/skalkhot.jpg" class="card-img-top" alt="iceland">
+                    <div class="card-body">
+                        <h5 class="card-title">The 5 Million Star Hotel in Skalholt</h5>
+                        <p class="card-text">Dream under Iceland's starry skies.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/skye.jpg" class="card-img-top" alt="skyeisland">
+                    <div class="card-body">
+                        <h5 class="card-title">Isle of Skye</h5>
+                        <p class="card-text">Venture yourself in the scottish Isle of Skye.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/fuji.jpg" class="card-img-top" alt="fuji">
+                    <div class="card-body">
+                        <h5 class="card-title">Fuji Views at Kozantei Ubuya</h5>
+                        <p class="card-text">Where refined elegance harmonizes with the beauty of Japan's iconic
+                            landmark.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Summer deals section -->
+    <section class="container-fluid text-center" id="summer">
+        <h2>Summer Greetings</h2>
+        <button class="btn-collapse">Collapse Section</button>
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/menorca.jpg" class="card-img-top" alt="menorca">
+                    <div class="card-body">
+                        <h5 class="card-title">Menorca</h5>
+                        <p class="card-text">Secluded luxury await on this Mediterranean gem.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/costasmeralda.jpg" class="card-img-top" alt="costasmeralda">
+                    <div class="card-body">
+                        <h5 class="card-title">Costa Smeralda</h5>
+                        <p class="card-text">The sparkling emerald coast of Sardinia is waiting for you.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/bocadoinfiernoazores.jpg" class="card-img-top" alt="azores">
+                    <div class="card-body">
+                        <h5 class="card-title">Azores</h5>
+                        <p class="card-text"> Discover the untouched natural beauty of this Atlantic archipelago.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/sandospapagayo.jpg" class="card-img-top" alt="lanzarote">
+                    <div class="card-body">
+                        <h5 class="card-title">Sandos Papagayo Beach Resort</h5>
+                        <p class="card-text">Beautiful views and atmosphere in Lanzarote.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/corsica.jpg" class="card-img-top" alt="corse">
+                    <div class="card-body">
+                        <h5 class="card-title">Diving in Corsica</h5>
+                        <p class="card-text">Explore UNESCO World Heritage Sites with exceptional Mediterranean nature.
+                        </p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 gy-3">
+                <div class="card">
+                    <img src="assets/hotelmolokai.jpg" class="card-img-top" alt="molokai">
+                    <div class="card-body">
+                        <h5 class="card-title">Molokai</h5>
+                        <p class="card-text">Enjoy the Hawaiian tropical elegance.</p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily offer section that goes d-none on smartphones-->
+    <section class="container-fluid text-center d-none d-md-block" id="daily">
+        <h2>Daily Offer</h2>
+        <div class="row mt-3">
+            <div class="col-8 d-flex justify-content-center">
+                <div class="card">
+                    <img src="assets/fjord.jpg" alt="norvegianfjord" class="img-fluid ">
+                    <div class="overlay">
+                        <img src="assets/50percent.svg" alt="discount">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">GREEN CRUISING:
+                            <br>Discover the Norvegian Fjords
+                        </h5>
+                        <p class="card-text">Prepare to embark on a journey of ecological harmony as we set sail through
+                            the pristine Norwegian Fjords on our Green Cruising adventure.
+                            <br>Our commitment to sustainability ensures that every aspect of your voyage is
+                            thoughtfully designed to minimize our impact on the environment while maximizing your
+                            comfort and enjoyment.
+                            <br>Towering cliffs, lush forests, and crystalline waters create a breathtaking landscape,
+                            inviting you to immerse yourself fully in the natural splendor of Norway's wilderness.
+                            <br>Join us on a journey of discovery and connection, creating memories that will last a
+                            lifetime.
+                        </p>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Last minute section with customized cards-->
+    <section class="container-fluid text-center" id="lastminute">
+        <h2>Last Minute Escapes</h2>
+        <button class="btn-collapse">Collapse Section</button>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 gy-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">London</h5>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 gy-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Venice</h5>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 gy-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Zante</h5>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 gy-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Rome</h5>
+                        <a href="#" class="btn">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials Section-->
+    <section class="container-fluid text-center" id="testimonials">
+        <h2>What our customers say about us</h2>
+        <div class="row mt-3">
+            <div class="col-3 d-flex justify-content-end">
+                <img src="assets/person3.jpg" class="img-thumbnail" alt="customer">
+            </div>
+            <div class="col-9 d-flex justify-content-start align-items-center">
+                <p><em>
+                        "I never imagined such an exciting journey until I booked with Secret Retreats.
+                        <br>From Paris to Tokyo, every moment was magical and worry-free."
+                    </em>
+                    <br><b>Maximilian Schmidt</b>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-9 d-flex justify-content-end align-items-center">
+                <p><em>"Since I began traveling with Secret Retreats 10 years ago, every experience has been an
+                        impeccable work of art.
+                        <br>Their attention to detail and dedication to excellence ensure that every trip is a
+                        masterpiece!"
+                    </em>
+                    <br><b>Adrian Moretti</b>
+                </p>
+            </div>
+            <div class="col-3 d-flex justify-content-start">
+                <img src="assets/person2.jpg" class="img-thumbnail" alt="customer">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3 d-flex justify-content-end">
+                <img src="assets/person1.jpg" class="img-thumbnail" alt="customer">
+            </div>
+            <div class="col-9 d-flex justify-content-start align-items-center">
+                <p><em>
+                        "Thanks to Silent Retreats, I had an unforgettable experience in Bali!
+                        <br>Every detail of my trip was carefully arranged, making it a dream come true."
+                    </em>
+                    <br><b>Laura G. Devaris</b>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-9 d-flex justify-content-end align-items-center">
+                <p><em>"Exploring Florence with Silent Retreats was an unforgettable experience.
+                        <br>Visiting the Uffizi Gallery and the picturesque Ponte Vecchio, every moment was a treasure"
+                    </em>
+                    <br><b>Emily Nakamura</b>
+                </p>
+            </div>
+            <div class="col-3 d-flex justify-content-start">
+                <img src="assets/person4.jpg" class="img-thumbnail" alt="customer">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer with modal button-->
+    <footer id="contact" class="container-fluid text-center">
+        <div class="row gy-3">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+                <ul>
+                    <li>
+                        Address:
+                        <br>Silent Retreats
+                        <br>Rue de Lyon 53
+                        <br>Geneve, Switzerland
+                    </li>
+                    <li>
+                        Phone:
+                        <br>+41 123 456 7890
+                    </li>
+                    <li>
+                        Email:
+                        <br>info@silentretreats.com
+                    </li>
+                    <li>
+
+                        <!--Modal button-->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="example@email.com">Contact Us</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Send your request</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="email" class="col-form-label">Email</label>
+                                                <input type="text" class="form-control" id="user-email"
+                                                    placeholder="example@email.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Details of the
+                                                    request</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn" id="send-btn">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+               <ul>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+
+               </ul>
+            </div>
+        </div>
+        <button class="btn" id="back-to-top-btn">Back to top</button>
+        <br><button class="btn" id="remove-all-btn">Remove all</button>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
